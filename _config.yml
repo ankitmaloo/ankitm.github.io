@@ -1,10 +1,10 @@
 theme: minima
-title: Ankit Maloo
+title: "Ankit Maloo"
 author:
-  name: Ankit Maloo
-  email: ankit@clioapp.ai
+  name: "Ankit Maloo"
+  email: "ankit@clioapp.ai"
+description: >
+  Welcome to my personal site. Still finding my way around here, so some stuff may look out of place.
 
-description: > 
-  Welcome to my personal site. Still finding my way around here, so some stuff may look out of place. 
-
-
+# Add the line below:
+permalink: /:title/
