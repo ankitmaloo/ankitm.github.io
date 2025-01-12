@@ -5,7 +5,7 @@ title: "Home"
 
 I live in Mumbai, and currently working at Clio AI.  
 
-### A few things about me: 
+## A few things about me: 
 
 - Grew up in Udaipur, India. Love the city.
 - Undergrad from IIT Kanpur.
@@ -16,7 +16,7 @@ I live in Mumbai, and currently working at Clio AI.
   - Noomi: A community startup in 2021.   
 - Now, I research and work on AI tools.
 
-### Opinions - both weak and strong
+## Opinions - both weak and strong
 
 - Curiosity wins out in the long run.
 - Go deep on things because you like it. 
@@ -32,21 +32,21 @@ I live in Mumbai, and currently working at Clio AI.
   - There is a unique learning opportunity when you apply first principles thinking to various problems out there. 
 - We should aim to solve harder problems no matter the domain.
 
-### Things I built
-- Blubyn
-- Noomi
-- Clio AI
+## Things I built
+- [Blubyn](https://blubyn.com)
+- [Noomi](https://getnoomi.com)
+- [Clio AI](https://www.clioapp.ai)
 
-### Research
-Just one paper. [ArXiv](https://arxiv.org/abs/2409.17171)
+## Research
+- Cross Domain Content Generation: [ArXiv](https://arxiv.org/abs/2409.17171)
 
-### Things I like
+## Things I like
 - Reading. Check out my bookshelf.
 - Football. Real Madrid.
 - Astrophysics.
 - History. Not the one from books, but specific events and multiple explanations of the same. 
 
-### Questions
+## Questions
 Some questions I have thought about and would love perspectives about
 - Why do people have different individual personalities that go away as a collective? 
 - How do people make decisions about life changes? Things are constant for a while and suddenly they change.
