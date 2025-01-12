@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Welcome"
+---
+
 I live in Mumbai, and currently working at Clio AI.  
 
 ### A few things about me: 
