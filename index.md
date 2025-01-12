@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Welcome"
+title: "Home"
 ---
 
 I live in Mumbai, and currently working at Clio AI.  
