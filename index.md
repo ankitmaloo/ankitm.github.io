@@ -24,12 +24,21 @@ I live in Mumbai, and currently working at Clio AI.
   - It's okay if the interest does not result in anything professionally or personally.
 - AI is going to give us more agency than we ever had.
   - Many people are not comfortable with agency and do not know what to do with it.
-  - Working with agency requires a level of conviction people will come to terms with. 
+  - Working with agency requires a level of conviction people will be slow to come to terms with. This presents both opportunities and challenges.
   - This fundamentally changes the way most things happen in this world.
 - [Anti Inductive](https://slatestarcodex.com/2015/01/11/the-phatic-and-the-anti-inductive/) things have huge alpha.
   - With many things out there, the value diminishes as more people start doing it. Truly transformative changes require original thinking.
   - There is a unique learning opportunity when you apply first principles thinking to various problems out there. 
 - We should aim to solve harder problems no matter the domain.
+  - This is a personal goal. I feel energized solving a challenging problem. 
+  - It's okay if the solution is not perfect.
+  - It's okay if you don't share the same goal. 
+- I get my serotonin from: 
+  - Puzzles
+  - making things work. And working out how stuff is configured. 
+  - I play video games to understand how it would have been coded - how do I beat the system? Gives me more fun than the game itself.
+  - It's not just about understanding, it's the first step to making things work. 
+
 
 ## Things I built
 - [Blubyn](https://blubyn.com)
@@ -40,10 +49,13 @@ I live in Mumbai, and currently working at Clio AI.
 - Cross Domain Content Generation: [ArXiv](https://arxiv.org/abs/2409.17171)
 
 ## Things I like
-- Reading. Check out my bookshelf.
+- Reading. Check out my [bookshelf](https://ankitmaloo.com/bookshelf).
 - Football. Real Madrid.
 - Astrophysics.
-- History. Not the one from books, but specific events and multiple explanations of the same. 
+  - I always liked it. It's a mix of math, physics and philosophy.
+- History. 
+  - Not the one taught in school, but specific events and multiple explanations of the same. 
+  - I like to think about why things happened the way they did. What were the trigger points, and figuring out the truth when you have different sources and perspectives describing the same event in different ways. It's like a puzzle.
 
 ## Questions
 Some questions I have thought about and would love perspectives about
