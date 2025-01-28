@@ -61,4 +61,4 @@ I live in Mumbai, and currently working at Clio AI.
 Some questions I have thought about and would love perspectives about
 - Why do people have different individual personalities that go away as a collective? 
 - How do people make decisions about life changes? Things are constant for a while and suddenly they change.
-- What would be a good successor to paper? That is what technology can preserve our learnings for the next 1000 years? No, memory that requires a software version to be readable is not the answer. 
+- What would be a good successor to paper? That is: which technology can preserve our learnings for the next 1000 years? No, digital memory that requires a software version to be readable is not the answer. 
