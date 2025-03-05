@@ -19,3 +19,8 @@ Two, these labs are competing for the same users, and at this stage, controlling
 Over the recent weeks, openai and Anthropic have released products like Operator, Deep Research (far better than any of its clones), Claude code, which all point to the attempts to capture the segment directly without a wrapper in the middle. There is a case to be made here that startups like cursor,perplexity figured out the product fit, and now the foundational companies want to eliminate the middlemen especially for the use cases they know has value. 
 
 **Caveats:** I am specifically pointing to the leading models. Older models may still be available on API, but the best ones would not be. 
+
+### Some supporting opinions
+- Sama's [tweet](https://x.com/sama/status/1897036361506689206) about converting the subscription to credits
+- Naveen Rao, Databricks' VP of Gen AI, [tweeted](https://x.com/NaveenGRao/status/1886544584588619840) this a month back so not really a contrarian/novel prediction on my end. 
+
