@@ -30,33 +30,24 @@ Here's what you need to actually replicate Deepseek's success:
 
 The constraint of not having H100s pushed Deepseek to find creative solutions. But they had everything else they needed. That's very different from being capital-constrained where you can't even afford to try different approaches.
 
-## Looking Forward
-
-If you're building AI infrastructure in any country, the lesson isn't "do it cheap." The lesson is "make sure you have enough resources to take multiple shots." You might face different constraints - regulatory, hardware, or talent. But you need the capacity to experiment and fail repeatedly before finding what works.
-
-Success rarely comes from the first attempt. It comes from having enough shots at the goal. Deepseek didn't succeed because they were constrained - they succeeded because they had enough resources to work around their constraints.
-
 ## The Shot Taking Economy
 
 Innovation requires sufficient attempts to find what works. When genuinely capital-constrained:
 
 - Each attempt must be meticulously planned
-
 - Failure becomes existentially threatening
-
 - Risk-taking is severely limited
 
 Conversely, with adequate capital, teams can:
 
 - Run parallel experiments
-
 - Fail productively
-
 - Iterate rapidly toward solutions
 
-## The Broader Implications
 
-The lesson from Deepseek isn't that capital constraints foster innovation. Rather, it's that technical constraints can be overcome with sufficient capital for experimentation and talented teams who understand how to navigate those constraints. Countries looking to invest in AI shouldn't aim to replicate artificial scarcity – they should ensure their teams have enough resources to take multiple shots at solving difficult problems, even when facing technical or regulatory constraints.
+## Looking Forward
 
+If you're building AI infrastructure in any country, the lesson isn't "do it cheap." The lesson is "make sure you have enough resources to take multiple shots." You might face different constraints - regulatory, hardware, or talent. But you need the capacity to experiment and fail repeatedly before finding what works.
 
+Success rarely comes from the first attempt. It comes from having enough shots at the goal. Deepseek didn't succeed because they were constrained - they succeeded because they had enough resources to work around their constraints.
 
