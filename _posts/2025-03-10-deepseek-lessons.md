@@ -11,16 +11,30 @@ Which brings us to Deepseek. R1 made a lot of noise, but the real work was done 
 
 Deepseek was constrained technologically not limited by capital. The lessons you draw are going to fundamentally wrong if you misunderstand this. Constraints could be physical, environmental, social, diplomatic etc. It's not the same as being limited by capital. Both can be used interchangeably in some cases, yes. However, they should not be treated the same way. The positive lessons from Deepseek were that they found a way through technological constraints, pushing out a great model modifying a limited hardware. FP8 was brilliant. The lessons the world drew were very different. Verbally put: "Since a chinese lab could build a model cheaply, this proves that models are not limited by capital. So everyone can build equally cheap models (~$5M), especially in countries like India." This argument fails when you understand how people land on such solutions. 
 
-- Almost everything new that Deepseek did, seems like a result of different ideas and iterations, where we know what worked. They had
-- - Sufficient resources to run multiple experiments. 
-- - The technical talent to innovate within hardware limitations (PTX implementation, FP8 training)
-- - The formidability to iterate till they land on a scalable solution. 
+Let me break down what actually happened at Deepseek:
 
-- They had access to many GPUs they could experiment on. This way, they could take many shots, and figure out which shot eventually worked. 
+1. They had money. A lot of it. But couldn't buy H100s.
+2. They ran tons of experiments on H800s trying different approaches.
+3. Most of these experiments failed - that's normal and expected.
+4. Eventually, they cracked FP8 training and other optimizations.
+5. The $4M-5M figure? That's just the final successful run.
 
-- For GPU poor units are by default limited by the number of shots, any shot would require careful deliberation, and teams may miss solutions by rejecting a low probablity solution in the analysis phase itself. 
+The real cost includes all the failed experiments, the engineering time, and the infrastructure. It's like saying a hit song only took 3 hours to record, ignoring the months of studio time that went into getting it right.
 
-I agree there is a possibilty of trying things at a smaller scale and then scaling them to save on compute, especially for GPU-poor. The only drawback is that these things don't always scale predictably, so you will be making some educated guesses but you have to see what works at the required scale to be sure. 
+Here's what you need to actually replicate Deepseek's success:
+
+- Enough compute to run multiple parallel experiments
+- Money to burn through failed attempts
+- A talented team that can innovate within hardware limits
+- Time and patience to iterate until something works
+
+The constraint of not having H100s pushed Deepseek to find creative solutions. But they had everything else they needed. That's very different from being capital-constrained where you can't even afford to try different approaches.
+
+## Looking Forward
+
+If you're building AI infrastructure in any country, the lesson isn't "do it cheap." The lesson is "make sure you have enough resources to take multiple shots." You might face different constraints - regulatory, hardware, or talent. But you need the capacity to experiment and fail repeatedly before finding what works.
+
+Success rarely comes from the first attempt. It comes from having enough shots at the goal. Deepseek didn't succeed because they were constrained - they succeeded because they had enough resources to work around their constraints.
 
 ## The Shot Taking Economy
 
