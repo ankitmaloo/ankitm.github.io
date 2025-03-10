@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pattern - Principle Fallacy aka learning the wrong lessons from Deepseek"
+title: "Lessons from Deepseek"
 date: 2025-03-09
 ---
 Ballon D'Or, awarded by France Football to the best footballer in the world, used to be a very respected award. There were some disputes but it was by and large agreed that whoever got the award was deserving of being called the best in the world. Then came the Messi - Ronaldo era. Both of them were so above the rest of the players that winning trophies was a tiebreak that determined who would get the award. And even that was not always true (cf 2012). This morphed into a new footballing culture by 2020s, post the decline of the two, where fans (and even voters) started pitching players about how winning trophies should be a precursor to winning the award, placing undue emphasis on team success as a pre-requisite for individual accolades. The narrative flipped from "the best player wins the Ballon d'Or" to "you need trophies to win the Ballon d'Or" - confusing the outcome with the cause.
