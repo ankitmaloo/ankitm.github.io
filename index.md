@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I live in ~~Mumbai~~SF now, made the move in April, and currently working at Clio AI.  
+I live in ~~Mumbai~~ San Francisco now, made the move in April. Currently working on Clio AI - helping research labs shorten their time to plan experiments.  
 
 ## A few things about me: 
 
