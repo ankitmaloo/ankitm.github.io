@@ -1,0 +1,80 @@
+---
+layout: post
+title: "When AI Breaks Its Own Patterns: Understanding Anti-Inductive Domains"
+date: 2025-06-02
+---
+From Scott Alexander's [post](https://slatestarcodex.com/2015/01/11/the-phatic-and-the-anti-inductive/)
+
+> Douglas Adams once said there was a theory that if anyone ever understood the Universe, it would disappear and be replaced by something even more incomprehensible. He added that there was another theory that this had already happened.
+
+> These sorts of things – things such that if you understand them, they get more complicated until you don’t – are called “anti-inductive”.
+
+That is, systems where understanding a pattern causes that very pattern to break. As AI reshapes our world, understanding these domains is crucial for predicting where AI will thrive and where it might just make things worse.
+
+At a fundamental level, generative AI models work via identifying patterns. These models learn from data, improve with usage, and get better through real-world examples included in training. We have seen this in action with AI-generated code: Sonnet 3.5 released in June 24, making Cursor / Windsurf and AI coding a viable usecase. Three iterations of Claude later, each markedly better at coding than the last, the pattern is clear: more usage leads to better models for everyone. Within a year, we have Windsurf's $3B acquisition by OpenAI. 
+
+But what happens when success destroys the very patterns that created it?
+
+## The Pattern That Eats Itself
+
+That's what anti-inductive domains are all about: when exploiting a pattern causes the pattern to break. Stock trading is the classic example. Once a strategy becomes known, it stops working because too many people jump on it. Job interviews show this too – "I want to help people" was once a sincere answer. Now it's generic. The same happens with blogging formulas or storytelling techniques.
+
+With AI becoming ubiquitous across every domain, this is the weird terrain it must navigate. Understanding anti-inductive patterns crucial for predicting where AI might accelerate its own obsolescence.
+
+## AI in Inductive Lands: Where More Means Better
+
+In inductive domains, patterns strengthen with use. Where AI has a PMF:
+
+* **Coding:** Every line of code AI processes refines its understanding. It learns from billions of repositories, absorbing patterns in architecture, best practices, and debugging techniques. Any failure modes are likely included in next training run, making the models smarter and outputs better. Outcome is more standardized, maintainable code that benefits everyone (we are getting there based on trajectory).
+
+* **Customer Service:** Support tickets follow patterns. Common issues get standard solutions. Each interaction teaches the AI more about user problems and effective responses. It's still a discrete case given the training complexities, though it results in a continuously learning system. 
+
+These domains are collaborative ecosystems where AI creates a virtuous cycle. Each user adds value, and everyone benefits from the accumulated knowledge. [3]
+
+## AI in Anti-Inductive Domains: Where Success Breeds Failure
+
+But then there are domains where success carries the seeds of its own destruction:
+
+* **Marketing:** The first AI-generated emotional ad campaign might move audiences. The hundredth feels manufactured. By the thousandth, viewers have developed immunity. Every successful pattern becomes a cliché. We're already seeing this in social media, where AI-generated content increasingly blends into a homogeneous mass.
+
+* **Creative Writing:** When everyone uses AI to craft "unique" stories or dating profiles, the results converge. What was once clever becomes common. A profile that stood out yesterday becomes tomorrow's template. The more AI optimizes for engagement, the more it creates a sea of sameness.
+
+The pattern is clear: in these domains, being first matters more than being best. These are zero-sum games of novelty. AI's success leads to saturation.
+
+## The Mental Model: AI as Mirror and Megaphone
+
+A way to think about it is:
+
+* In *inductive domains*, AI is like building a library. Every user adds another layer of knowledge (that is later integrated via training). It gets larger, faster, better. 
+
+* In *anti-inductive domains*, AI is like yelling into a crowded room. If you’re first, people hear you. If you’re last, you’re noise.
+
+A key product question: Does AI help by repeating patterns? Or hurt by making everyone sound the same?
+
+## The Future: ?? and Noisy Rooms
+
+If we continue down this path, we'll see AI getting used in every inductive space. Code will become abstracted. Interfaces will simplify. Most people won't need to write code — they'll describe what they want, and AI will translate intent into implementation.
+
+But in anti-inductive areas, AI may accelerate the race to mediocrity. Marketing messages will blur into an indistinguishable mass. Creative content will flatten into formulaic templates. The bar for "original" will keep rising, pushing humans to reclaim the edge AI can't reach - not knowledge, but *surprise*.
+
+This isn't to say AI has no place in anti-inductive domains. But timing matters critically: in inductive spaces, latecomers can still win by building on accumulated knowledge. In anti-inductive spaces, first movers capture most of the value before patterns become stale.
+
+## Final Thought: Choose Your Domain Wisely
+
+The most powerful applications of AI will be found where patterns compound rather than collapse. Using AI to:
+- Build infrastructure
+- Create clarity
+- Enhance systems instead of gaming them
+
+The future splits into two paths: one where AI paves roads to progress, another where it amplifies until everything becomes noise. 
+---
+
+**Notes:**
+
+[1] While there's debate about classifying generative AI models as pure induction engines, the model serves as a useful approximation for understanding their behavior and limitations.
+
+[2] Credit to Scott Alexander's work on anti-inductive domains, which helped crystallize many of these ideas.
+
+[3] Network effects present an interesting parallel case study – while similar to anti-inductive patterns, they follow their own unique dynamics that deserve separate analysis.
+
+[4] Today's AI landscape might seem to contradict some of these patterns, but we're still in early stages. The long-term dynamics will likely align more closely with these fundamental principles.
