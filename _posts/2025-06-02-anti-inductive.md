@@ -37,9 +37,9 @@ These domains are converging ecosystems where AI creates a virtuous cycle. Each 
 
 But then there are domains where success carries the seeds of failure:
 
-* **Marketing:** The first time you saw an emotional brand ad? It hit me. But by the hundredth one? Meh. By the thousandth? You probably roll your eyes. That's because what works becomes a cliche super fast. Just look at social media today. AI-generated posts all start to look the same. Those AI-written cold emails? Each one makes the next one less likely to work because we've seen it all before. The problem is, AI looks at what worked in the past and suggests those same ideas - but they're already old news.
+* **Marketing:** The first time I saw an emotional brand ad? It hit me. But by the hundredth one? Meh. By the thousandth? You probably roll your eyes. That's because what works becomes a cliche super fast. Just look at social media today. AI-generated posts all start to look the same. Those AI-written cold emails? Each one makes the next one less likely to work because we've seen it all before. The problem is, AI looks at what worked in the past and suggests those same ideas frameworks - but they're already old news. It's ike how 'The Incredibles' put it: "If everyone is super, no one is".
 
-* **Creative Writing:** It's funny what happens when everyone uses AI for their captions or dating profiles. Something that was super clever yesterday becomes just another template today. Everyone's trying to be unique in exactly the same way. The more AI tries to write stuff that gets attention, the more everything starts to sound the same.
+* **Creative Writing:** It's funny what happens when everyone uses AI for their captions or dating profiles. Something that was super clever yesterday becomes just another template today. Everyone's trying to be unique in exactly the same way. The more AI tries to write stuff that gets attention, the more everything starts to sound the same[^5].
 
 The pattern is apparent: in these domains, being first matters more than being best. These are zero-sum games of novelty. AI's success leads to saturation.
 
@@ -87,3 +87,4 @@ It's not about avoiding AI in anti-inductive spaces but using it to handle the r
 
 [^4]: Network effects present an interesting parallel case study – while similar to inductive patterns, they follow their own unique dynamics that deserve separate analysis.
 
+[^5]: There is a lot of meta commentary to be made here about different marketing products over the last two-three years and then the attempts from Meta to increase AI usage in their apps. For now, I will steer clear of that. 
