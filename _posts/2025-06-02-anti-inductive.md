@@ -72,7 +72,7 @@ In inductive domains, I let AI handle the heavy lifting:
 
 In anti-inductive domains, it's wiser:
 - For marketing: Focus on data mining, analysis, and insights, not writing copies. You can always ask an AI how your lead will react based on a copy you provide to iterate. Works far better. 
-- For products, I feel in the long run I want to keep user interfaces fresh and opinionated instead of every website looking the same[^5]. Though it will be copied, but like I said, first mover is a distinct advantage here. 
+- For products, I feel in the long run I want to keep user interfaces fresh and opinionated instead of every website looking the same. Though it will be copied, but like I said, first mover is a distinct advantage here. 
 
 It's not about avoiding AI in anti-inductive spaces but using it to handle the repeatable parts while you focus on what changes. This way, AI amplifies the edge. 
 
