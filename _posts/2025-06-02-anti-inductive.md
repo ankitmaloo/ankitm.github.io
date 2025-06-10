@@ -76,6 +76,8 @@ In anti-inductive domains, it's wiser:
 
 It's not about avoiding AI in anti-inductive spaces but using it to handle the repeatable parts while you focus on what changes. This way, AI amplifies the edge. 
 
+PS: I spoke to Scott recently about this at one of the Berkeley meetups. His opinion is that there is an underlying pattern when it comes to humor and surprise too where people (who are successful in these fields) have stumbled upon or are using without realizing the exact pattern. Given enough data, an LLM might be able to use the same pattern. I don't have a strong view on this (except if there is a pattern to copywriting, I don't explicitly know.). I think even if I grant this premise, there is a task for an LLM to come up with newer ideas as I assume the pattern leads to them, and that is something hard for current models to do. 
+
 
 **Notes:**
 
