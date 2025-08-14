@@ -64,4 +64,4 @@ Some questions I have thought about and would love perspectives about
 - What would be a good successor to paper? That is: which technology can preserve our learnings for the next 1000 years? No, digital memory that requires a software version to be readable is not the answer. 
 
 ## Other
-I maintain a list of [intuitions](https://ankitmaloo.com/smallbets/) I am making in public domain. You can check the [git history](https://github.com/ankitmaloo/ankitm.github.io/commits/main/_posts/2025-03-05-smallbets.md) for log of changes. 
+I maintain a list of [bets](https://ankitmaloo.com/smallbets/) I am making in public domain. You can check the [git history](https://github.com/ankitmaloo/ankitm.github.io/commits/main/_posts/2025-03-05-smallbets.md) for log of changes. 
