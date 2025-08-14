@@ -29,7 +29,7 @@ Over the recent weeks, openai and Anthropic have released products like Operator
 
 **Date:** March 7, 2025
 
-**What:** In this case, I need to clarify the what first. Over the last two years, there is a big debate outside of the AI community, but in the software community whether or not people should train their own models. Initially finetune was a way to go, but that hype died down too. That led people to the conclusion (not unjustifiably) that the layer at which products would win and create most value would be the application layer as opposed to model layer (foundational model builders) or the infra layer (semis, gpus)
+**What:** In this case, I need to clarify the what first. Over the last two years, there is a big debate outside of the AI community but in the software community whether or not people should train their own models. Initially finetune was a way to go, but that hype died down too. That led people to the conclusion (not unjustifiably) that the layer at which products would win and create most value would be the application layer as opposed to model layer (foundational model builders) or the infra layer (semis, gpus)
 
 This by no means is a consenses argument, but I see this pushed through everywhere, especially when I talk to early stage founders, investors, or just builders. World's leading acclerator has been actively pushing this narrative and accepting startups on this theme in the last two years. 
 
@@ -44,3 +44,25 @@ Yes, this follows from first prediction.
 To get to a 90%-95% accuracy, you have to address the fundamental issues with how a model generates output. That is, changing the model behavior at the weights level instead of just prompting. Thats the bet. Whoever does it would capture more value since people would move to the company which increases reliability. 
 
 **Caveats:** A couple of players would win on the app layer - only because they got adopted so fast that they could then customize models to deliver performance almost as good as the products which feature a customize product. You are seeing this play out in real time when Perplexity is competing with Openai's Deep Research.  
+
+# Prediction #3 (August 2025)
+**Claim:** AI progress in the next few iterations is going to look like stalling because AI is improving in areas an average person cannot reliably judge and hence the improvements seem incremental. 
+
+**Date:** August 14, 2025
+
+**What:** This, coming after GPT-5, seems much less of a bet and more of a conclusion. I think I am late in recognizing this, and there are many voices saying the same, but there are even more voices about how the progress has stalled. For me, I have been at this end in 2018, where things seemed to stall in NLP and they actually did. (pity we did not pick up on transformers at that point). 
+
+Coming to what I see: many people found GPT-5 as underwhelming. It's a system of models and not one model. There is a router which means openai could not make it work at scale. The AI curve and progress is stalling. I think you would have heard the usual arguments here. My take - something I felt since the release of o3 and Opus 4 - is that I could not longer feel excitement about a new model simply because I dont have great questions to test the model on. You can only test someone's intelligence when they are at your level, you can only guess if they are smarter than you relatively, not how smart. A controversial claim I believe is that models are already that far ahead that I cannot tell anymore by simply seeing the output. Yes, an expert could tell the difference, thats where models are good at passing the eye test but not the smell test. 
+The other side of this is how the axes models are getting good at is not something people would use on a daily basis. Understanding genome structure, proving difficult theorems, hypothesizing new research approaches etc. The thing relevant for them was reduced hallucinations, that too something you only appreciate if you look at things from a reliability pov and not capabilities. Don't get me wrong, it's huge, just not as exciting. 
+
+**Why?** Some very basic reasons:
+
+1. **Reference point poverty:** benchmarks are saturated. Getting from 90% to 91% might be exponentially hard, but to humans it seems a small level of progress. There is no shared intuition of hard, and a progress from 92% on MMLU to 98% feels like an expected curve and not amazing anymore. 
+
+2. **Real world lag:** GPT-5 is very good at agentic tasks as they say. We would only know when used in real world setting and that too by professionals. Ideally, we should see more long horizon agents, agents better at chained tasks, more automation, just by looking at GPT-5's release. There are more to follow - Gemini 3, Claude 4.x for both Sonnet and Opus (Opus 4.1 is released) - all getting better at more agentic tasks and reliability. Reliability shows up in applications not demos. 
+
+3. **Narrative:** This is on Openai because clearly they hyped it up way too much. Anything the model could do they would not have matched it up to the expectations they set for themselves. 
+
+**How to know if the progress has really stalled?** I don't have a very good answer to this. We will need two things here to be true at the same time: 1/ No measurable uptick in unsaturated benchmarks like HLE and Frontier Math, no new awards or increased scores in IMO, IOI, etc. by the newer models. 2/ If you present outputs from this generation of models and a previous generation models on the same prompt, <50% laymen would pick the latest outputs.
+
+**Caveats:** All of this is perceptive. We will probably crack a few things in reasoning space (because we are at 0.3% of compute of what was used to train AlphaGo so a lot of potential there) and the narrative and perception could shift immediately. Same goes with a cool robotics demo, an agentic demo which is predicated on using the models in a unique and creative manner, all these could change the perception.
