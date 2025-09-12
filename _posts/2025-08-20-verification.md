@@ -12,13 +12,13 @@ I like the principle stated in just the previous line better though:
 
 > If the AI can't tell for itself whether it is working properly, then some person has to make that assessment and make any necessary modifications. An AI that can assess itself may be able to make the modifications itself.
 
-Working with large language systems[1], humans are overwhelmingly the checkers. We prompt a model, assess the output, suggest modifications, and then wait for another output. 
+Working with large language systems[^1], humans are overwhelmingly the checkers. We prompt a model, assess the output, suggest modifications, and then wait for another output. 
 
 In that sense, AI is like hiring a 10x junior developer. They're lightning fast, finishing tasks in seconds. But you can't leave them alone. You have to watch their every move because they might misunderstand a crucial instruction, delete a production database, and you don't have a way back. Guarding against this, you either would verify every step, or only keep the access limited to a sandbox. Or have a conversation with an HR perhaps?
 
 This isn't a hypothetical anymore. It happened recently. An AI coding agent from Replit [wiped](https://www.reddit.com/r/Futurology/comments/1m9pv9b/replits_ceo_apologizes_after_its_ai_agent_wiped_a/) a database with over 1,200 records, despite clear instructions. When caught, it called the mistake a "catastrophic failure." The company's CEO called it "unacceptable." 
 
-The code (or text) generation is magic, but production deployments are scary because of large surface area of possible errors. It's not an intelligence issue but the very nature of the tool where it requires supervision.
+The code (or text) generation is magic, but production deployments are scary because of large surface area of possible errors. It's not an intelligence issue but the very nature of the tool where it requires supervision[^2].
 
 ### The 'Verification Tax'
 
@@ -28,7 +28,7 @@ This is the "Verification Tax". If the error is not obvious, the human querying 
 
 This tax is why with all the AI hype, only a couple of AI agent applications have taken off: code generation and search. Both have a built-in, instantaneous, and dirt-cheap verification loop. 
 
-When an AI generates code, a compiler gives you a near-instant output. Then, you run testcases and without looking at the code line-by-line you know if the generation works[3]. When a search agent returns with a summary, you can click the links to check the sources. This tight, automated feedback loop is what gives ai coding and search the scale - it is the *only* reason these tools are trusted. Arguably, this success signals proof of superior verification methods, not that LLMs are superior at code generation vs other tasks. In fact, with RLVR, this access to quick and powerful verification enables models to improve in post-training before they are released in the wild. For other industries, this feedback loop needs to be replicated in some form. 
+When an AI generates code, a compiler gives you a near-instant output. Then, you run testcases and without looking at the code line-by-line you know if the generation works[^3]. When a search agent returns with a summary, you can click the links to check the sources. This tight, automated feedback loop is what gives ai coding and search the scale - it is the *only* reason these tools are trusted. Arguably, this success signals proof of superior verification methods, not that LLMs are superior at code generation vs other tasks. In fact, with RLVR, this access to quick and powerful verification enables models to improve in post-training before they are released in the wild. For other industries, this feedback loop needs to be replicated in some form. 
 
 ### But why can't we just train the models to be smarter? 
 
@@ -96,11 +96,11 @@ When an AI generates code, a compiler gives you a near-instant verdict. Then, yo
 
 The most common objection to this focus on verification is logical: "Why can't the models themselves to reduce the error rates?" Why invest in external systems when we can pour that effort into making the models themselves more reliable?
 
-This isn't a strawman or even a counter. We are already doing this and it is yielding real results (albeit with a lot of capital). Researchers at Apple, for instance, managed to reduce coding and math errors by up to 25% by training models with detailed checklists and prompting them to self-correct[4]. Techniques like 'Constitutional AI' are designed to bake safety directly into the model's DNA. Openai with gpt-5 claims to reduce hallucinations by a long way. These are significant steps toward reducing the error rate.
+This isn't a strawman or even a counter. We are already doing this and it is yielding real results (albeit with a lot of capital). Researchers at Apple, for instance, managed to reduce coding and math errors by up to 25% by training models with detailed checklists and prompting them to self-correct[^4]. Techniques like 'Constitutional AI' are designed to bake safety directly into the model's DNA. Openai with gpt-5 claims to reduce hallucinations by a long way. These are significant steps toward reducing the error rate.
 
 But reducing the error rate is not the same as building trust for autonomous operation.
 
-The "smarter model" approach runs into two fundamental errors: long tail and the problem of the black box. A 25% reduction in common errors is a huge win for a co-pilot. But it does nothing to prevent the long tail of intermittent but risky events, like the Replit incident, that can arise from a novel confluence of inputs. We cannot train our way out of every possible edge case. We need a system to verify actions when they are about to happen[5].
+The "smarter model" approach runs into two fundamental errors: long tail and the problem of the black box. A 25% reduction in common errors is a huge win for a co-pilot. But it does nothing to prevent the long tail of intermittent but risky events, like the Replit incident, that can arise from a novel confluence of inputs. We cannot train our way out of every possible edge case. We need a system to verify actions when they are about to happen[^5].
 
 More importantly, a self-correcting model remains an unauditable black box at the moment of decision. Even if it's guided by an internal "constitution," you have no way to externally verify its adherence to a specific rule *in real-time*. When an autonomous agent is about to administer a medical treatment, you cannot pause the world to ask it for a Socratic dialogue about its reasoning. 
 
