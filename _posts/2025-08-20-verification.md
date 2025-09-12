@@ -66,12 +66,12 @@ There is a form of this already out there with the big labs - Anthropic with con
 
 Automation is bottlenecked by verification, not intelligence. That it enables more intelligence is an added benefit. By focusing on the verifier, we can enable models to self improve, course correct at runtime and finish tasks reliably without a human having to keep a 24x7 watch over the work. 
 
-[1]: I use the word systems and models interchangeably. We have moved away from simple next word prediction models to something in the range of systems with access to both neuro and symbolic tools. 
+[^1]: I use the word systems and models interchangeably. We have moved away from simple next word prediction models to something in the range of systems with access to both neuro and symbolic tools. 
 
-[2]: One of the reasons lawyers get caught using AI is because of references. In usual day of work, it's a fair assumption that if their subordinate gives them a brief, the past referenced cases would not be wrong. In AI's application, that no longer holds.
+[^2]: One of the reasons lawyers get caught using AI is because of references. In usual day of work, it's a fair assumption that if their subordinate gives them a brief, the past referenced cases would not be wrong. In AI's application, that no longer holds.
 
-[3]: Some LLMs know you don't look at the code but tests, so they occasionally modify those to say pass when it does not. 
+[^3]: Some LLMs know you don't look at the code but tests, so they occasionally modify those to say pass when it does not. 
 
-[4]: https://arxiv.org/pdf/2507.18624? It's a good paper. 
+[^4]: https://arxiv.org/pdf/2507.18624? It's a good paper. 
 
-[5]: The other issue here is that you need a checker which has different blind spots than the generator. That is a longer blog post, so will come to it in a future. 
+[^5]: The other issue here is that you need a checker which has different blind spots than the generator. That is a longer blog post, so will come to it in a future. 
