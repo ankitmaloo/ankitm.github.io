@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I live in ~~Mumbai~~ San Francisco now, made the move in April. Currently working on Clio AI - helping research labs shorten their time to plan experiments.  
+I live in ~~Mumbai~~ San Francisco now, made the move in April. Currently working on Clio AI - long horizon RL agents that can finish tasks with high accuracy.  
 
 ## A few things about me: 
 
@@ -13,7 +13,8 @@ I live in ~~Mumbai~~ San Francisco now, made the move in April. Currently workin
 - Cofounded a couple of startups
   - Blubyn: An AI travel chatbot in 2017.
   - Noomi: A community startup in 2021.   
-- Now, I research and work on AI tools.
+- Now, I research and work on RL.
+- The problem statement I am working on. 
 
 ## Opinions - both weak and strong
 
