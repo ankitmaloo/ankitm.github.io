@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I live in ~~Mumbai~~ San Francisco now, made the move in April. Currently working on Clio AI - long horizon RL agents that can finish tasks with high accuracy.  
+I live in ~~Mumbai~~ San Francisco now, made the move in April. Currently working on [Clio AI](https://www.clioapp.ai) - long horizon RL agents that can finish tasks with high accuracy.  
 
 ## A few things about me: 
 

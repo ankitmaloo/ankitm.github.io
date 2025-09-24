@@ -1,5 +1,6 @@
 ---
 layout: default
+nav_exclude: true
 permalink: /working-on/
 ---
 # What I am working on
