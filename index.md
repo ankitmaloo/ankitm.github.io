@@ -14,7 +14,7 @@ I live in ~~Mumbai~~ San Francisco now, made the move in April. Currently workin
   - Blubyn: An AI travel chatbot in 2017.
   - Noomi: A community startup in 2021.   
 - Now, I research and work on RL.
-- The problem statement I am working on. 
+- Currently working on [self verifying agents](/work.md). 
 
 ## Opinions - both weak and strong
 
