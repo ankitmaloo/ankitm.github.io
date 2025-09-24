@@ -1,6 +1,7 @@
 ---
 layout: default
-nav_exclude: true
+title: "What I am working on"
+exclude: true
 permalink: /working-on/
 ---
 # What I am working on
@@ -45,6 +46,13 @@ In deployment, models can similarly detect their own errors, correct course, and
 
 ## Towards Automation
 When a system can reliably complete a multi hour workflow while self correcting any errors, it brings the kind of reliablity and trust lacking in today's AI agents. Humans sets the task and use the final output in downstream tasks. For any flagged areas or exceptions, humans should be able to correct those. 
+
+## The problem with LLM-as-judge
+The core idea is elegant: an AI model can judge it's own output and provide feedback. Just that using LLM as a proxy for human fails in multiple ways.
+
+- You don't want a checker to have same blind spots as the generator. 
+- Generative judge reinfornces the same kind of probablistic outcomes. 
+
 
 ### Why not let the big labs do it?
 This is the debate between a general purpose model which knows how to solve a problem, vs a specialist which knows how to solve your problem. RL is all about exploration, and given the infinite canvas of tasks out there, I think big labs would struggle to cover all of it. 
