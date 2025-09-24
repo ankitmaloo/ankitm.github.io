@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "What I am working on"
 permalink: /working-on/
 ---
+# What I am working on
+
 Richard Sutton [wrote](http://incompleteideas.net/IncIdeas/KeytoAI.html) about the 'Verification Principle' in 2001: 
 
 > An AI system can create and maintain knowledge only to the extent that it can verify that knowledge itself.
