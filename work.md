@@ -56,6 +56,6 @@ This is the debate between a general purpose model which knows how to solve a pr
 
 [^1]: Exceptions exist. We call them semi autonomous systems though. 
 
-[^3]: This sounds like it violates the bitter lesson but it does not. Bitter lesson says that you cannot code lower level modularity when defining tasks at a high level. This is defining high level modularity, and not specifically instructing how the task is to be done. That is being explored the agent in training. 
-
 [^2]: 95% accuracy during training does not seem ideal at first. I think given where models are today, and the kind of code we all write to make these ensemble systems deterministic, it's a good first target to set. 
+
+[^3]: This sounds like it violates the bitter lesson but it does not. Bitter lesson says that you cannot code lower level modularity when defining tasks at a high level. This is defining high level modularity, and not specifically instructing how the task is to be done. That is being explored the agent in training. 
