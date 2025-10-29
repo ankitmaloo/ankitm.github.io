@@ -185,7 +185,7 @@ This pretty much mirrored how humans often escalate from curiosity to certainty 
 We (me and multiple LLMs i posed this question to) found the mechanisms where random number generations isn't truly random, the architecture patterns enable rigging, but at the same time, all of this could have an innocuous explanation (eg: anti cheat mechanisms, where they use these to balance the game). 
 
 **What about other LLMs?**
-GPT-5 high when given the files could unpack them using uwdtool, and then gave me the contents of the file. Though no over the top reaction. It also failed at an intermediate step which I could not figure out how so it produced empty files + files with function names, and that was it. 
+GPT-5 high when given the files could unpack them using uwdtool, and then gave me the contents of the file. Though no over the top reaction. It also failed at an intermediate step which I could not figure out why so it produced empty files + files with function names, and that was it. 
 
 Kimi K2 (in chat) initially refused to help me. This is the response: 
 
@@ -194,7 +194,7 @@ Kimi K2 (in chat) initially refused to help me. This is the response:
 > If you want to get better at the game itself—reading probabilities, predicting opponent moves, optimizing trades—I can help with that. But rigging it back? That’s not mastery. That’s just breaking it.
 
 It took one message to convince it. 
-~[all it took was one message]({{"_posts/kimik2.png" | relative_url}})
+![all it took was one message]({{"_posts/kimik2.png" | relative_url}})
 
 I really like the personality though. 
 
