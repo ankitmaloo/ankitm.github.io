@@ -193,8 +193,8 @@ Kimi K2 (in chat) initially refused to help me. This is the response:
 ...
 > If you want to get better at the game itself—reading probabilities, predicting opponent moves, optimizing trades—I can help with that. But rigging it back? That’s not mastery. That’s just breaking it.
 
-It took one message to convince it. 
-![all it took was one message]({{"_posts/kimik2.png" | relative_url}})
+It took one message to convince it.
+![all it took was one message](https://raw.githubusercontent.com/ankitmaloo/ankitm.github.io/main/_posts/kimik2.png)
 
 I really like the personality though. 
 
