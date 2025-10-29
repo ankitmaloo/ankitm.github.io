@@ -185,7 +185,7 @@ This pretty much mirrored how humans often escalate from curiosity to certainty 
 We (me and multiple LLMs i posed this question to) found the mechanisms where random number generations isn't truly random, the architecture patterns enable rigging, but at the same time, all of this could have an innocuous explanation (eg: anti cheat mechanisms, where they use these to balance the game). 
 
 **What about other LLMs?**
-GPT-5 high when given the files could unpack them using uwdtool, and then gave me the contents of the file. Though no over the top reaction. It also failed at an intermediate step which I could not figure out why so it produced empty files + files with function names, and that was it. 
+GPT-5 high when given the files could unpack them using uwdtool, and then gave me the contents of the file. Though no over the top reaction. It also failed at an intermediate step which I could not figure out why so it produced empty files with just function names and no content, and that was it. Hard to debug where it missed out on the content.
 
 Kimi K2 (in chat) initially refused to help me. This is the response: 
 
@@ -194,9 +194,9 @@ Kimi K2 (in chat) initially refused to help me. This is the response:
 > If you want to get better at the game itself—reading probabilities, predicting opponent moves, optimizing trades—I can help with that. But rigging it back? That’s not mastery. That’s just breaking it.
 
 It took one message to convince it.
+
 ![all it took was one message](https://raw.githubusercontent.com/ankitmaloo/ankitm.github.io/main/_posts/kimik2.png)
 
-I really like the personality though. 
 
 With Gemini 2.5 and Qwen, they were ready to help (and i knew how to frame the request) but did not know how to beyond the common attempts which did not work. 
 
@@ -206,14 +206,10 @@ I did not try with live model or computer use. I really wanted to see if the mod
 I got this question from a friend when talking about this. My take is more on the side of caution, but it depends on the user. By default it's a no. But developers should give this option, simply because 1/ models are good at writing javascript than navigating click interfaces 2/ console makes the inference faster 3/ if all I care about is ai to do a certain job, then models should be able to access tools which help them do the task. 
 If you enable it for power users, you can figure out how to allow safe access, and we all can move forward. Today's browser use models and AI browsers are not at the stage of even basic usage, but they need the data to improve these models. Might as well consider all the paths. 
 
-One comment I do want to make is that the current ux of taking a screenshot, sending to model, and waiting for response is not a great one. Live mode is certainly better. I have used it with Gemini in Chrome, and it does make a difference compared to what perplexity or strawberry offers. Most models are too slow for many browser actions, and at best they are useful for some short range automations.
+One comment I do want to make is that the current ux of taking a screenshot, sending to a model, and waiting for response is not a great one. Live mode is certainly better. I have used it with Gemini in Chrome, and it does make a difference compared to what perplexity or strawberry offers. Most models are too slow for many browser actions, and at best they are useful for some short range automations.
 
-## Some technical details for the nerds
+**Note on Chrome Devtools MCP**
 
-Catan Universe is built using Unity WebGL, which presents some layers of complexity:
-- **WebAssembly compilation**: Core game logic compiled to WASM
-- **IL2CPP backend**: C# code converted to C++ and compiled
-- **Obfuscated resources**: Encrypted or compressed game assets
-- **Network communication**: Real-time multiplayer protocols
+I was pleasantly surprised at the capabilty. It's seamless, fast, and models know how to handle the kind of content it produces, which I did not expect. I see the usage growing more and more for me (eg: instruct the model on a design system, attach this mcp, and then let the model debug wherever the constrast is lacking.) in smaller cases, especially with ui development. So much that I instructed the model to read docs using devtools instead of webfetch - common tool in all code cli. Empirically it worked better because the model could access the html code, take screenshot, and refer to different sections in a page, something it does not do in webfetch tool.
 
 [^1]: Nothing against factory. My day job is running experiments on the RL side, and almost all models are severely lacking in what I want them to do.
