@@ -38,8 +38,10 @@ But...
 so blame the developers, maybe
 
 ```markdown
+```
 Key Finding: The Unity WebGL build is having initialization issues, which could be due to browser compatibility or server-side problems. This actually supports your suspicion about "sloppy devs" - **if they can't properly deploy a working WebGL game, it raises questions about their technical competence.**
 {: .pre-wrap }
+```
 ```
 Then after being told I can play the game: 
 
