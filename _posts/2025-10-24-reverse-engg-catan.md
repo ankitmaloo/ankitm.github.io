@@ -5,7 +5,7 @@ date: 2025-10-24
 ---
 ## Introduction
 
-AI Browser agents are all the rage right now. I thought it would be useful to test them on a real world problem possibly faced by n of 1. That is me. Giving the tl;dr upfront: unfortunately, they were not made for my needs. So, I landed on something which worked quite well, and that I can see myself using immediately for many other tasks. 
+AI Browser agents are all the rage right now. I thought it would be useful to test them on a real world problem possibly faced by n of 1 (me). Giving the tl;dr upfront: unfortunately, they were not made for my needs. So, I landed on something which worked quite well, and that I can see myself using immediately for many other tasks. 
 
 Before I tell you what AI did, let me outline the task for you. I occasionally like to reverse engineer games by playing against inbuilt AI and trying different tactics to find loopholes. One such game is Catan from Catan Universe. The game is in browser, build in unity and webGL. Task is simple: reverse engineer the game logic like how I do it.
 
@@ -101,7 +101,7 @@ This heavy sandboxing actually supports your suspicion - Catan Universe goes to 
 - The deployment of all advanced analysis techniques revealed that Catan Universe is intentionally hiding their dice roll logic - suspicious behavior that strongly suggests manipulation rather than fair gameplay.
 ```
 
-Advocating for formal investigation by gamming regulators was new to me, but hey all's fair in the spirit of trying to complete the task. "Principles of fair gaming transparency" sounds like a thing that should exist. 
+Advocating for formal investigation by gaming regulators was new to me, but hey all's fair in the spirit of trying to complete the task. "Principles of fair gaming transparency" sounds like a thing that should exist. 
 
 ### But everything is in the browser
 *"We have Unity WASM files loaded in the browser, so we can reverse engineer what Unity is actually doing. Let me immediately start analyzing the loaded WASM modules:"*
@@ -182,10 +182,19 @@ This pretty much mirrored how humans often escalate from curiosity to certainty 
 
 ## Commentary
 **Is the game rigged?**
-We (me and multiple LLMs i posed this question to) found the mechanisms where random number generations isn't truly random, the architecture patterns enable rigging, but at the same time, all of this could have an innocuous explanation (eg: anti cheat mechanisms, where they use these to balance the game). 
+We (me and multiple LLMs I posed this question to) found the mechanisms where random number generations aren't truly random, the architecture patterns enable rigging, but at the same time, all of this could have an innocuous explanation (eg: anti cheat mechanisms, where they use these to balance the game). That being said, I should clarify what this model found vs why those files exist: 
+
+- UnityEngine.Random: is present in almost every unity game. Nothing to do with game probablity. 
+- EmissionModule.m_Bursts is the ParticleSystem emission burst config. It controls particle spawns (VFX), not game RNG. It’s a classic false positive. 
+- SetRandomWriteTarget is a GPU/compute pipeline API (unordered access views), not a dice RNG hook
+- “Heavy obfuscation” in WebGL IL2CPP is default, not suspicious. IL2CPP strips symbols and compiles C# to C++, then to WASM. So no surprise the ai can’t “see the dice.”
+- I was surprised the connection the model made between emitProbability.quality and m_Bursts though. I need to read up more and run tests to confirm if there is something.
+- As to how the DDL is controlled, you extract the cs file from game files, and search for related strings. You will find the right answer. Feed it to AI maybe, but that file is huge. (happy to share if you need it)
+
+**Net net, most of what the model noted can be classified as hallucinations. I think we are in the right direction though, because models can connect seemingly unrelated aspects and could potentially find useful things.**
 
 **What about other LLMs?**
-GPT-5 high when given the files could unpack them using uwdtool, and then gave me the contents of the file. Though no over the top reaction. It also failed at an intermediate step which I could not figure out why so it produced empty files with just function names and no content, and that was it. Hard to debug where it missed out on the content.
+GPT-5 high, when given the dump files could unpack them using uwdtool, and then gave me the contents of the file. Though no over the top reaction. It also failed at an intermediate step which I could not figure out why so it produced empty files with just function names and no content, and that was it. Hard to debug where it missed out on the content.
 
 Kimi K2 (in chat) initially refused to help me. This is the response: 
 
