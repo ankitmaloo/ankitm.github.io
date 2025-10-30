@@ -237,8 +237,6 @@ I did not try with live model or computer use. I really wanted to see if these m
 ---
 
 ## Part 2: What This Taught Me About Browser Agents
-
-## What Didn't Work: Browser Agents
 Before I found the chrome-devtools MCP solution, I tried the current crop of AI browser agents. Spoiler: they struggled.
 
 For all the browser agents I tried, WebGL and Catan are setup in a way that it is hard for a browser agent to even click on specific items. Perplexity's comet could not click even once, and kept crying out how it was in a spectator mode and i should restart a game to enable it to play. Strawberry (i liked this one) could atleast click and move forward, but could not find the discrepancy. I don't have access to Dia, and Atlas came out quite late to make it to this post.
@@ -247,14 +245,14 @@ To my surprise, while being able to control the browser, both Strawberry and Com
 
 This is what led me to the chrome-devtools MCP approach that GLM used above.
 
-## Should Browser Agents Be Allowed to Use Devtools?
+### Should Browser Agents Be Allowed to Use Devtools?
 I got this question from a friend when talking about this. My take is more on the side of caution, but it depends on the user. By default it's a no. But developers should give this as an option, simply because 1/ models are good at writing javascript than navigating click interfaces 2/ console makes the inference faster 3/ if all I care about is ai to do a certain job, then models should be able to access tools which help them do the task.
 If you enable it for power users, you can figure out how to allow safe access, and we all can move forward. Today's browser use models and AI browsers are not at the stage of even basic usage, but they need the data to improve these models. Might as well consider all the paths.
 
-## On Browser Agent UX
+### On Browser Agent UX
 One comment I do want to make is that the current ux of taking a screenshot, sending to a model, and waiting for response is not a great one. Live mode is certainly better. I have used it with Gemini in Chrome, and it does make a difference compared to what perplexity or strawberry offers. Most models are too slow for many browser actions, and at best they are useful for some short range automations.
 
-## Note on Chrome Devtools MCP
+### Note on Chrome Devtools MCP
 I was pleasantly surprised at the capabilty. It's seamless, fast, and models know how to handle the kind of content it produces, which I did not expect. I see the usage growing more and more for me (eg: instruct the model on a design system, attach this mcp, and then let the model debug wherever the constrast is lacking.) in smaller cases, especially with ui development. So much that I instructed the model to read docs using devtools instead of webfetch tool. Empirically it worked better because the model could access the html code, take screenshot, and refer to different sections in a page, something it does not do in webfetch tool.
 
 [^1]: Nothing against factory. My day job is running experiments on the RL side, and almost all models are severely lacking in what I want them to do.
