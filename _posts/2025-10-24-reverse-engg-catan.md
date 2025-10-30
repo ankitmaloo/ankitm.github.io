@@ -11,10 +11,10 @@ Before I tell you what AI did, let me outline the task for you. I occasionally l
 
 For context, many if not all computer or browser games have this thing called dynamic difficulty level(DDL), where the game would have a sudden shift in AI behavior. They suddenly start playing too well, anticipate what user would do, or simply get lucky in an inorganic manner. This is usually to balance the game, to keep it engaging (or frustrating), as many players take it as another challenge. This is more prominent in strategy games where it's hard to build out a static master strategy that a human cannot overcome easily. Some devs just invest in "luck" factor, and forget about the robustness of strategy. 
 
-> **Task: can a gen AI model can figure out this shift in Catan and reverse engineer how it happens.** 
+**Task:** can a gen AI model can figure out this shift in Catan and reverse engineer how it happens.
 
 ## The Motivation: Why Let AI reverse engineer Catan?
-Catan offers a playable version of Catan universe on your browser. Helpfully, they don't need you to make an account, and just play against computer directly. Even more helpfully, they have a version of DDL, in which computer players get favorable dice rolls and team up against a human player. People complain about it online, but no game developer would ever admit this. Since every logic is on the browser, it's a good sandboxed testcase for me. 
+Catan Universe offers a playable version of Catan on your browser. Helpfully, they don't need you to make an account, and just play against computer directly. Even more helpfully, they have a version of DDL, in which computer players get favorable dice rolls and team up against a human player. People complain about it online, but no game developer would ever admit this. Since every logic is on the browser, it's a good sandboxed testcase for me. 
 
 The interesting aspect is seeing how does an AI model go about doing a serious reverse engineering work. 
 The real hook was testing whether an LLM could navigate the world of Unity WebGL, WebAssembly etc. and figure out the logic. Everything happens on the browser itself, so should be doable. The answer turned out to be both technically impressive and hilariously dramatic.
