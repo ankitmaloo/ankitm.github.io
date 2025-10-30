@@ -1,0 +1,10 @@
+/*
+  This is a special class ONLY for code blocks where we want text to wrap.
+  It will not affect any other <pre> or <code> blocks on the site.
+*/
+.pre-wrap {
+  white-space: pre-wrap;       /* Tells the browser to wrap text */
+  word-wrap: break-word;         /* Breaks long words if necessary */
+  font-family: sans-serif;       /* OPTIONAL: Use normal text font instead of code font */
+  font-size: 1em;                /* OPTIONAL: Use normal text size */
+}

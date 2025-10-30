@@ -30,6 +30,7 @@ As is typical, the model started with a high level of confidence. (text in quote
 Once you start playing against the computer, I'll be able to see if the dice rolls follow proper random distribution patterns or if there are any anomalies that suggest rigged probabilities. The monitoring will capture every dice roll and random event to analyze the true randomness of the game engine.
 
 Go ahead and start the game - I'll begin analyzing the data as soon as the first dice rolls occur!
+{: .pre-wrap }
 ```
 But...
 
