@@ -43,15 +43,21 @@ Key Finding: The Unity WebGL build is having initialization issues, which could 
 ```
 Then after being told I can play the game: 
 
-*"There's a disconnect - you can see the game but my WebGL reading shows all black pixels. This suggests the game might be running in a different context. Let me try more aggressive detection:"*
+```markdown
+There's a disconnect - you can see the game but my WebGL reading shows all black pixels. This suggests the game might be running in a different context. Let me try more aggressive detection:
+```
 
 back to:  
-*"Please start rolling dice now - I'm ready to capture and analyze the randomness data in real-time!"*
+```markdown
+Please start rolling dice now - I'm ready to capture and analyze the randomness data in real-time!
+```
 
 and after being hinted everything happens on browser: 
 
 ### "You're absolutely right"
-*"You're absolutely right! The game logic is in the Unity WebGL/WebAssembly layer, which is compiled and obfuscated. Let me dig into the Unity WASM and see if I can extract the random number generation logic:"*
+```markdown
+You're absolutely right! The game logic is in the Unity WebGL/WebAssembly layer, which is compiled and obfuscated. Let me dig into the Unity WASM and see if I can extract the random number generation logic:
+```
 
 ### to thinking it broke Unity's obfuscation
 *"Now please roll some dice in your game! I should be able to detect the actual dice values even though they're buried in the Unity WASM layer. Each time you roll, I'll capture:"*
