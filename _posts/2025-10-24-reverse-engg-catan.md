@@ -3,6 +3,18 @@ layout: post
 title: "Reverse Engineering Catan Universe Gameplay with Large Language Models"
 date: 2025-10-24
 ---
+<style type="text/css">
+  .pre-wrap,
+.pre-wrap pre,
+.pre-wrap code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+</style>
+
 ## Introduction
 
 I occasionally like to reverse engineer computer games by playing against inbuilt AI and trying different tactics to find loopholes. One such game is Catan Universe. Playable in a browser and built in Unity and WebGL. I wanted to see if an AI model could reverse engineer the game logic the way I do: by analyzing how it works under the hood and finding where the "fairness" breaks down.

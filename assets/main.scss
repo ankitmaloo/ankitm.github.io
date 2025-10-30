@@ -1,0 +1,15 @@
+
+---
+---
+@import "minima";
+
+/* your additions / overrides */
+.pre-wrap,
+.pre-wrap pre,
+.pre-wrap code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  font-family: sans-serif;
+  font-size: 1em;
+}
