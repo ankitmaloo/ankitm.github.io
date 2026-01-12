@@ -115,8 +115,9 @@ It knows what business plans sound like. It doesn't know what happens when a pla
 
 Humans do this implicitly. When assessing a plan, we simulate: "If we do X, competitor does Y, customer sees Z." Those who simulate well plan well. It does not matter knowing what good plans look like, it's about anticipating consequences[^5].
 
-Imitation Model: "Write a marketing plan that sounds professional based on this context."
-Adversarial World Model: "If I launch this plan, how will Competitor X react based on their past behavior?"
+**Imitation Model:** "Write a marketing plan that sounds professional based on this context."
+
+**Adversarial World Model:** "If I launch this plan, how will Competitor X react based on their past behavior?"
 
 Current models can't do this because they're trained on what people said, not what happened. They have no loss function on outcomes, only on plausibility.
 
@@ -164,6 +165,9 @@ The next era requires learning from the world directly: from executions, from ph
 In my previous [post](https://ankitmaloo.com/rl-env), I talked about how reasoning generalizes from priors to navigate complex problems. When those priors are solely linguistic or symbolic, a typical reasoning search space is constrained to what can be said or written for a given problem. 
 
 World models change this substrate to causal priors. They teach the system about how interventions change states. In practice: reasoning[^8] proposes an action, the world model predicts consequences, and bad trajectories get pruned before execution. The search changes from a "world of words" to a "world of consequences.". 
+
+---
+Footnotes:
 
 [^1]: This is a simplification. Not exactly right, but correct in important ways. Next-token models can implicitly learn dynamics; the difference is whether the training objective and evaluation force accurate consequences under intervention.
 
