@@ -3,7 +3,7 @@ layout: post
 title: "World Models"
 date: 2026-01-05
 ---
-*Some elements here build upon the [RL env](https://ankitmaloo.com/rl-env) post. Also, please read the footnotes, given a lot to cover, I moved many clarifications to the bottom.*
+***Some elements here build upon the [RL env](https://ankitmaloo.com/rl-env) post. Also, please read the footnotes, given a lot to cover, I moved many clarifications to the bottom.***
 
 Something is happening across all major labs simultaneously and it's not a coincidence. 
 
@@ -79,6 +79,7 @@ More importantly, in many cases, this is also why world model doesn't need to be
 
 ## Value Functions: Knowing What's Good
 *Because simulating the future would be useless if you don't know which future you want*
+
 Conceptually, a [value function](http://incompleteideas.net/book/first/ebook/node34.html) estimates the expected future reward from a given state. A world model tells you what happens next. Add a value function and you know whether what happens next is good. 
 
 This unlocks something critical for multi-step tasks. Consider a workflow with dozens of intermediate steps. Without value functions, you run every trajectory to completion to evaluate. With value functions, you can evaluate mid-stream: did this step improve state quality or degrade it? Bad trajectories get pruned early. Compute flows to promising paths. This has obvious applications in robotics, but I would argue this has applications for non robotics tasks too. 
