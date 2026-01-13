@@ -14,7 +14,7 @@ Something is happening across all major labs simultaneously and it's not a coinc
 - Anthropic's intepretability research [shows](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) [that](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) current models already develop internal world representations, but they are implicit, emergent and unreliable. 
 - OpenAI, when launching Sora insisted on it being a world simulator, as opposed to being just a video model. 
 - Similarly, Veo3 is also referred to as a physics model or a world model. 
-- Meta launched their code world model (cwm) in September last year, where a 32B model matched or outperformed larger models on execution-dependent benchmarks.
+- Meta released a [paper](https://arxiv.org/abs/2510.02387) on code world model (cwm) in September last year, where a 32B model matched or outperformed larger models on execution-dependent benchmarks.
 
 When every major lab converges on the same research direction within the same window, we should pay attention.
 
