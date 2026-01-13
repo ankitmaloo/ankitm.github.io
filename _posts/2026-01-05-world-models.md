@@ -75,7 +75,7 @@ Unless they are trained on causality. A world model trained on actual competitiv
 ### Language
 Language understanding is what makes this newly tractable. Previously, you couldn't feed a market simulator the sentence "our competitor is reducing pricing in Q4." Humans had to translate context into variables. LLMs dissolve that interface. Now you can ingest earnings calls, internal memos, market signals etc. and output predicted states. (You still need outcome-linked training and a grounded state.)
 
-More importantly, in many cases, this is also why world model doesn't need to be a separate system. It's an LLM trained on state transitions rather than token sequences, one that ingests language and outputs consequences. This is how Meta trained their code world model. 
+More importantly, in many cases, this is also why world model doesn't need to be a separate system. It can be a transformer architecture trained on state transitions rather than token sequences, one that ingests language and outputs consequences. This is how Meta trained their code world model. 
 
 ## Value Functions: Knowing What's Good
 *Because simulating the future would be useless if you don't know which future you want*
