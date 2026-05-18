@@ -7,7 +7,7 @@ Some problems don't get solved in your head, they get solved in someone else's w
 
 You cannot always tell what got them there. Maybe they extracted their experience into understanding more efficiently than you did, or they remembered the solution from last Tuesday. Both explain the outcome. Often both are partially true. You cannot test them apart in any clean way. The best researchers could do was design problems unlikely to have been seen before, measure the outcome, and argue about what the score meant. 
 
-This is where we have always been with intelligence. A black box. With no factorization. We watched what came out - solutions, inventions, occasional flashes of genius - and attributed it to some combination of memory, recall, reasoning, and an unexplained thing called intelligence. The whole bundle activated at once. We drew a line in the sand where our understanding gave out, and called the far side "intelligence". Every IQ test, every SAT, every century of psychometric argument is a long monument to this. A whole discipline built around inferring something from the only data the brain would ever release: the outputs.
+This is where we have always been with intelligence. A black box. With no factorization. We watched what came out - solutions, inventions, occasional flashes of genius - and attributed it to some combination of memory, recall, reasoning, and an unexplained thing called intelligence. The whole bundle activated at once. **We drew a line in the sand where our understanding gave out, and called the far side "intelligence".** Every IQ test, every SAT, every century of psychometric argument is a long monument to this. A whole discipline built around inferring something from the only data the brain would ever release: the outputs.
 
 The bundle came with its own built-in obstacles. Evolutionary priors, episodic memory, learned procedures, linguistic competence, social intuition, embodied skill, all running on the same substrate, inside the same organism, activated together every time the system did anything interesting. There was no way to pick it apart. Not really. Well, until now.
 
@@ -20,12 +20,12 @@ To get to intelligence, you want to go to a layer below. That is, inferring how 
 Large language models are stunningly competent. This often gets lost in the noise around whether they are really intelligent, but on layer one the answer is not in serious dispute. They write, summarize, translate, code, reason about legal documents, score well on expert exams, and in more domains every month they match or exceed skilled humans at the task. Competence is not in doubt.
 The question is what is producing the competence. And here the interesting part is not that we have answered the question. But rather, we know what goes in their training data. We know how they get to the competence they have. 
 
-**They are the first system in history that lets us ask the right questions at a deeper layer.** 
+**LLMs are the first system in history that lets us ask the right questions at a deeper layer.** 
 
 I will come back to LLMs in a minute, but first let me explain what the bundle factorization could look like. 
 
 ## Engine and the Substrate
-The cleanest vocabulary for the separation comes from [François Chollet](https://arxiv.org/abs/1911.01547). He has been arguing for years that intelligence is not the same as skill. Skill is the ability to perform a task well. Intelligence is the ability to acquire new skills efficiently from minimal experience. This framing draws a line between engine and substrate: the engine is whatever converts experience into generalizable capability, and the substrate is everything else — data, tools, accumulated knowledge, search, the composability of stored skills. A high-conversion engine extracts more structure from less input. A low-conversion engine needs more substrate to reach the same place, and often doesn't reach it at all. The conversion ratio is the key. Everything else is fuel. 
+The cleanest vocabulary for the separation comes from [François Chollet](https://arxiv.org/abs/1911.01547). He has been arguing for years that intelligence is not the same as skill. Skill is the ability to perform a task well. Intelligence is the ability to acquire new skills efficiently from minimal experience. This framing draws a line between engine and substrate: the engine is whatever converts experience into generalizable capability, and the substrate is everything else — data, tools, accumulated knowledge, search, the composability of stored skills. A high-conversion engine extracts more structure from less input. A low-conversion engine needs more substrate to reach the same place, and often doesn't reach it at all. **The conversion ratio is the key. Everything else is fuel.** 
 
 Stay with the engine-and-substrate frame for a moment, because it does more work than it first looks like. 
 
@@ -78,7 +78,7 @@ If compression is the engine, the next question is what kind of process performs
 
 [Simonton](https://www.youtube.com/watch?v=fD5ClBwf6LQ&t=16s) studied creative scientists and found that novel discoveries emerge when many ideas are simultaneously active. The more elements you hold at once, the higher the chance of a productive collision. [Koestler](https://a.co/d/03RqwJ31) called it **"bisociation"** - the collision of two separate frames of reference. The intersection only exists if both chains are held at the same time. [Baddeley](https://pubmed.ncbi.nlm.nih.gov/1736359/) and Engle showed the capacity underneath this empirically. Working memory, the ability to maintain and operate on an active chain of representations, predicts fluid intelligence.
 
-Different researchers, different fields, different populations - but the same phenomenon. There is a mode of cognition where the continuity of the process is what produces the output, not a side effect of it.** Hold multiple representations active, let them collide and restructure, and novel compressions emerge.** Break the chain or thin the set, and they don't.
+Different researchers, different fields, different populations - but the same phenomenon. There is a mode of cognition where the continuity of the process is what produces the output, not a side effect of it. **Hold multiple representations active, let them collide and restructure, and novel compressions emerge.** Break the chain or thin the set, and they don't.
 
 This is the cognitive-science claim underneath the conversion ratio: 
 
@@ -88,7 +88,7 @@ In LLMs, every inference is stateless. Chain-of-thought is sequential within a s
 
 The temporal structure is completely different. LLM "thinking" is wide but shallow in time. The cognition described above is narrow but deep in time. It suggests that depth is where novel compressions happen. Holding multiple frames at once for extended periods is what lets them collide and restructure into something new.
 
-Prediction and compression are deeply connected, but the kind of compression matters. Archival compression of text makes a system competent. Reality compression is what produces the leap. If the leap depends on sustained active representations, unresolved ambiguity, internal simulation, and long temporal continuity, then LLMs may be missing something important. Even if they are extraordinary compressors.
+Prediction and compression are deeply connected, but the kind of compression matters. **Archival compression of text makes a system competent. Reality compression is what produces the leap.** If the leap depends on sustained active representations, unresolved ambiguity, internal simulation, and long temporal continuity, then LLMs may be missing something important. Even if they are extraordinary compressors.
 
 ## Animal Intelligence
 Then there is the piece of evidence that doesn't fit neatly anywhere, which is why Rich [Sutton](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) keeps pointing at it. A crow solves a novel multi-step problem with a brain the size of a walnut and no text corpus. An octopus opens a jar. A human child generalizes from a tiny, local, embodied stream of experience compared with the scale of an LLM corpus. Whatever these systems are doing, it is not archive compression, because there is no civilizational archive. The data they have access to is a trickle of local, embodied experience, and out of it comes behavior that is intelligent.
@@ -105,7 +105,7 @@ If intelligence is substrate-independent, the multiple independent biological in
 
 Place LLMs against this and the question sharpens. They have the contingent features in abundance — symbolic manipulation, discrete categories, the appearance of central representation. Whether they have the convergent core, or only the mammal-shaped outputs of it, is an open question. The animal evidence does not settle that. What it does is establish that the question is well-posed: 
 
-> there is a bundle, it is substrate-flexible, and the job is to work out whether LLMs instantiate it or only resemble it.
+> There is a bundle, it is substrate-flexible, and the job is to work out whether LLMs instantiate it or only resemble it.
 
 ### Optimization Pressures
 
@@ -125,8 +125,10 @@ Intelligence is currently in the pre-factoring stage. The folk concept worked we
 
 ### The unit
 The atomic question of intelligence is how much new structure a given system can extract from how little experience.
-Asking whether a model is intelligent is the wrong question. We need to start asking what its conversion ratio is.
-The reframe changes what you measure, what you build, and what counts as progress. **A high-conversion system — whatever it is built out of — should do four things.** Take a small amount of experience in a domain it has never seen. Extract reusable structure from it. Transfer that structure across novel contexts. And retain it without needing more data, more search, or more scaffolding for every future task. That is the operational shape. None of it is solved. We can't even measure it cleanly yet. But it is the right shape of question, and once it is in front of you, a research direction snaps into focus.
+
+> **Asking whether a model is intelligent is the wrong question. We need to start asking what its conversion ratio is.**
+
+The reframe changes what you measure, what you build, and what counts as progress. A high-conversion system — whatever it is built out of — should do four things. Take a small amount of experience in a domain it has never seen. Extract reusable structure from it. Transfer that structure across novel contexts. And retain it without needing more data, more search, or more scaffolding for every future task. That is the operational shape. None of it is solved. We can't even measure it cleanly yet. But it is the right shape of question, and once it is in front of you, a research direction snaps into focus.
 Memory, planning, reasoning, world models are composite descriptions of how a converter expresses itself in a particular regime. Studying any one of them in isolation is studying the byproducts of the operation, not the operation itself. Intelligence research has been stuck in the equivalent pre-factored state for about a century, studying competence aggregates and calling them intelligence. 
 
 The harder question is how you would measure any of this. The instruments we use today measure something else.
