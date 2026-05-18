@@ -67,7 +67,7 @@ The historical record says otherwise. Copernicus's theory was locally worse than
 
 A system optimizing for tight fit would not have flipped the frame. It would have stayed with Ptolemy and added the next epicycle. *Compression pressure on archival data would not surface a theory that is temporarily worse at predicting that data.*
 
-## Mechanisms
+### Mechanisms
 If compression is the engine, the next question is what kind of process performs the second kind, the one which flips frames rather than tightening them. This is where the LLM story diverges from the older literature on insight, discovery, and intelligence.
 
 Hadamard surveyed mathematicians — including Einstein — in the 1940s about how they actually think. He found that sustained incubation, keeping a problem alive without interruption, was essential to discovery. Break the chain, lose the insight. Poincaré had described the same thing in 1908: breakthroughs arrived only after prolonged engagement, when ideas "hooked together." Kahneman put it bluntly later — interruption does not pause an effortful chain, it destroys it. Gruber, studying Darwin's notebooks, found the same pattern stretched over months: a continuously maintained mental model, fed by every new observation, that was never fully externalized.
@@ -102,7 +102,7 @@ Place LLMs against this and the question sharpens. They have the contingent feat
 
 > there is a bundle, it is substrate-flexible, and the job is to work out whether LLMs instantiate it or only resemble it.
 
-# Optimization Pressures
+### Optimization Pressures
 
 Karpathy presses on a different question. The space of possible intelligences is large, and animal intelligence is a single point in it, shaped by a very particular optimization pressure — billions of years of survival in multi-agent adversarial environments, layered with drives for homeostasis, sociality,status, curiosity, and reproduction. LLMs were shaped by none of this. Their pressures are the statistical structure of human text, reinforcement learning on problem distributions, and something close to A/B testing for daily active users. These produce different shapes of capability, and they should.
 
@@ -111,7 +111,7 @@ also explains why they fall over on tasks any animal would handle.
 
 Which makes Karpathy's stronger claim land. LLMs are humanity's first contact with non-animal intelligence. Treating biological cognition as the target an LLM engine ought to match is a category move that deserves more suspicion than it usually gets. We keep confusing ourselves by measuring them against the only intelligence we have ever known. "Whatever they are, they are not squirrels."
 
-# A Rashomon situation
+## A Rashomon situation
 The animal evidence says intelligence does not require an archive. Levin says it does not require a brain. Karpathy says it does not have to be biological at all. We do not have a unifying theory. What we have is a set of partial views — Chollet's conversion ratio, Sutskever's compression, the cognition tradition's sustained-engagement picture, Sutton's scaling-and-search, Karpathy's optimization-pressure framing, LeCun's world models, Levin's basal cognition — each lit from a different angle, each capturing something real, none of them completing the picture. The problem is not that the views contradict each other; most of them are compatible. The problem is that we are still looking at bundles and composites, things described in terms of other things we also cannot define. We are not yet looking at a primitive.
 
 We have been here before. Energy was a confused aggregate of heat, work, motion, and several other ideas before thermodynamics factored it. Atoms were a philosophical guess for two thousand years before the instruments arrived to see them. Life was vitalism plus mystery before biochemistry got under the hood. In each case the concept looked unified only because nobody could take it apart yet. And when the factoring did arrive, it tended to come fast. Thermodynamics unified the energy picture inside roughly a century, and the modern atomic theory went from speculative to experimentally grounded in about the same span. The factoring did not destroy the concept. It gave us a real one to replace the folk one.
