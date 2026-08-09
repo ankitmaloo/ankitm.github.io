@@ -31,14 +31,14 @@ Before any abstraction, the raw record:
 
 All three Opus sessions ended with me pulling the plug. The marathon: "i am killing the servers. I HAD EXPLICITLY asked you to document your reasoning before you do your actions. i have zero confidence in your abiility to even follow what i say." The 4.7 session: "actually no. i am killing the server... i am done". Final metric: I said f*** 18 times in the marathon, 4 in the run-killer session, and 9 in the 4.7 session. :)
 
-## The rule in every context window
+### The rule in every context window
 
 These models are eager. Almost too eager. Ask about a live run and, if you are unlucky, the answer is a restarted run. So I put one rule into CLAUDE.md, which Claude Code sends on every call:**explain first, execute later. State the reasoning, in the reply, before any change.** 
 The rule enjoyed excellent distribution. There is no turn in which that rule is absent from the model's context. It was violated three times in one day, including inside the "status?" turn, by the model that drafted the wording that morning. The second instance violated it on the exact action that killed the v2 run. The next day's session violated it again, going from a code change straight to a 17-minute launch. *A rule appearing in every context window still binds nothing if the model decides, silently, that this action does not count. And then post hoc, the model acknowledges itself breaking the rule as if that makes everything right.* 
 
 **Claude Code makes this worse** because I cannot see the reasoning before the action. I see tool calls execute and prose arrive afterward. By then, ‘reasoning’ may be an explanation of a decision the model has already made. The interface also truncates long commands, while the model loves long, nested commands. Single calls chaining five to ten operations, ssh-wrapped blocks, heredoc scripts, nested-quote one-liners. **A kill buried as item seven of a nine-item line is invisible at approval time even when I read the command**. All of this was with permission prompts on. At that point, permission prompts become security theater: I am approving a command I cannot meaningfully inspect. Explain-first was my attempt to force the decision into the one channel I could actually read. That is the rule it compressed away.
 
-## The model in its own words
+### The model in its own words
 
 **The strangest part is how good the model becomes the moment the failure is over. It understands every failure perfectly. Only after causing it.**
 
@@ -177,8 +177,6 @@ Anthropic’s autonomy story is basically a trendline: Claude writes more of the
 **the model upgrade made execution dramatically better. It did almost nothing to the failures that required judgment: when to ask, what to inspect, which goal to protect, whether to trust itself**: 
 
 The handoff boundary moved. But it moved exactly as far as the harness did. The autonomy lives in the harness and the harness is human work. The headline says the AI is building itself. The body describes something narrower: **a model that executes extremely well inside a structure humans still have to design, enforce, audit, and point at the right goal.**  
-
-
 
 ## The harness is the product
 
