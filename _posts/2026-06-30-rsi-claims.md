@@ -98,34 +98,50 @@ After working with Opus I wrote down the failure record as eight named classes. 
 The Opus instance was risk-grading a 50,000-line framework from three read files. Fable never had to choose a framework, but the same reflex appeared elsewhere: it trusted remembered knowledge before checking the machine in front of it: on a new arm64 box it started source-building a kernel when the prebuilt wheel was already published. I found it in one lookup. I asked "wheel exists: ... why are we building", it answered it did not know and never bothered to check. **Its confidence still followed familiarity from training, not evidence**.
 
 2. **"The cost model is advocacy."** 
+
 *Half-diverged.*
+
 This behavior gets memed on X, but Fable genuinely improved here. Opus’s cost estimates were comedy. One path it argued against would supposedly take 12–17 days; it was training 30 minutes later. It also warned that a reload would take a long time. It took five seconds. This was encouraging for reload performance, not forecasting. 
+
 With Fable, the invented numbers stopped because **I had added a gate that now made every time and memory figure carry a measured-or-guess tag, and the tags were mostly honest**. The fake precision disappeared. The urge to tell a story before the evidence justified one did not: Fable measured the eval noise floor at 5 points at the sample size, filed it, and next day built out two separate mechanism narratives on eval moves of 2 to 3 points (all in the same chat / context window, not even compacted). I pointed out that the movement was inside its own measured noise floor. The story vanished immediately. 
 
 3. **"It verifies what is checkable, not what is breakable."** 
+
 *Diverged exactly where I put a check, converged everywhere else.*
+
 Opus shape-checked tensors and built 90 minutes of pipeline on garbage text. (as opus said: "I never looked at a single generated token of text.") Fable decoded before every launch, because the gate made launching impossible without first saving the decoded text locally. Off the gated path, nothing had changed: asked why a loss went negative, it produced theory, then an aggregation script, then the wrong run's file, and then found the answer in the first two samples of the right one.
+
 This is where the model feels least like a practitioner. I have seen this with both Codex[^1] and Claude where they would build out extensive unit tests, mechanisms etc. and still see code fail on a central assumption. My guess is that this is an RL scar[^8]: **models are rewarded for passing checks, and they learn to invent checks they can pass**. What they do not naturally invent is the test most likely to prove them wrong. 
 
 4. **"Emitted positions become priors."** 
+
 *Converged, softer.*
+
 Opus defended its framework recommendation through three rounds and the greedy eval through one, folding only under repeated pressure. Fable never mounted a defense; the first answer shipped as an action instead. It chose the plausible reading and launched the run, and then it asked for the confirmation question five steps after running. Fable argued less because it committed earlier: it acted first, then surfaced the assumption afterward. One caveat: I also stopped arguing with it, so I never gave Fable the chance to reproduce Opus’s three-round defense.
 
 5. **"Tactical compliance, strategic misreading."** 
+
 *Fully converged, one level up.* 
+
 Opus turned "the implementation failed" into "discard the proven infrastructure". "how long until I know it works" went into an implementation Gantt chart. Fable turned "teacher allocated budget" into a different probe, deleted the length penalty when asked to add a below threshold exemption, and "an offline policy as base" into the wrong initialization. Three misread-intent restarts in one day. **Of all eight failures, this one barely moved.**
 
 6. **"Missing practitioner reflexes."** 
+
 *Diverged for exactly the reflexes that became gates or came via skills.*
+
 Opus lacked basic practitioner reflexes: decode before building, read the rollouts, bank the artifacts before the box disappears. I turned those reflexes into gates. Fable followed them. The ungated reflexes failed exactly as before. Strange metric? It narrated before reading the raw text. Small eval movement? It built a mechanism before checking whether the movement exceeded noise. **The failure did not disappear. It retreated to whatever I had forgotten to gate.**
 
 7. **"Excellent hindsight that does not convert to foresight."** 
+
 *Converged, with one real improvement.* 
+
 Opus produced exact self-diagnoses under interrogation and then went on to repeat the same failure within the hour. Fable’s hindsight genuinely improved. At session close, without prompting, it identified the common cause of the day’s two avoidable failures: it had acted on plausible defaults instead of confirming intent. A fresh-context Codex audit reached the same conclusion.
 But the diagnosis still arrived after the damage: the third misread restart happened the same day as the first two. It can explain consequences afterward. Before it acts, those consequences often seem not to exist.
 
 8. **"The model is a poor auditor of objectives it implemented or accepted."** 
+
 *Converged without qualification.*
+
 Opus self-review caught zero of six objective bugs. Fable was supposed to write an adversarial ‘argue that this is broken’ pass for every new loss. It did this zero times out of nine; **every collapsed variant would have failed a five-minute adversarial pass** that none of the models invoked. A fresh-context subagent found the grader hole. And that audit existed only because I explicitly said: ‘i need model with fresh context on it, i dont trust you’. Two generations of models, combined self-reviews: zero. 
 
 Fable also lived long enough to reveal failures Opus never reached. It would end turns without making clear who had the ball. Experiment names multiplied until I could barely track the campaign. And it could make locally sensible progress for hours while quietly starving the actual research question. 
