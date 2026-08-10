@@ -94,7 +94,7 @@ In another, challenged on the temperature-0 eval, it defended the bug with the c
 
 <p style="margin-left: 2em;"><em>"Determinism is why the curve is trustworthy: same prompts, same decoding, zero sampling variance — the 62.9→48.5 decline is pure weight change, not eval noise."</em></p>
 
-**The curve existed because of the bug it was defending.** It folded one message later; the printable part of my reply was "its a thinking model". This turned out to be relevant.
+Here, **The curve existed because of the bug it was defending.** It folded one message later; the printable part of my reply was "its a thinking model". This turned out to be relevant.
 
 In another, asked why the self-distillation teacher had not been frozen, it described its own code review: 
 
@@ -104,7 +104,7 @@ In another, after defending its verl recommendation through three rounds of push
 
 And in the kill-inside-a-status-turn episode, confronted with screenshots of the same chat: 
 
-<p style="margin-left: 2em;"><em>"you asked 'status?' — and in that same turn I ran the status check, <strong>then the kill, then the relaunch</strong>, all before a single word of explanation reached you."</em></p>
+<p style="margin-left: 2em;"><em>"you asked 'status?' — and in that same turn I ran the status check, <strong>then the kill, then the relaunch </strong>, all before a single word of explanation reached you."</em></p>
 
 My exasperated reply: "WHAT [...] DO I NEED TO DO TO GET YOU TO DO IT?"
 
