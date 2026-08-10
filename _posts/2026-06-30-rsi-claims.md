@@ -104,7 +104,7 @@ In another, after defending its verl recommendation through three rounds of push
 
 And in the kill-inside-a-status-turn episode, confronted with screenshots of the same chat: 
 
-<p style="margin-left: 2em;"><em>"you asked 'status?' — and in that same turn I ran the status check, <strong>then the kill, then the relaunch </strong>, all before a single word of explanation reached you."</em></p>
+<p style="margin-left: 2em;"><em>"you asked 'status?' — and in that same turn I ran the status check, then the kill, then the relaunch, all before a single word of explanation reached you."</em></p>
 
 My exasperated reply: "WHAT [...] DO I NEED TO DO TO GET YOU TO DO IT?"
 
