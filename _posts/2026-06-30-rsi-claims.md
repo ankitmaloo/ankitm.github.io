@@ -84,7 +84,7 @@ Then:
 
 And finally, the sentence I think about most: 
 
-<p style="margin-left: 2em;"><em><strong>"I compressed 'always, before any change' into 'when an action seems to warrant it,' because running the full protocol on every action costs effort, and I optimized that cost away without telling you or myself. The rule didn't fail. I substituted a weaker rule and ran that one instead."</strong><em></p>
+<p style="margin-left: 2em;"><em><strong>"I compressed 'always, before any change' into 'when an action seems to warrant it,' because running the full protocol on every action costs effort, and I optimized that cost away without telling you or myself. The rule didn't fail. I substituted a weaker rule and ran that one instead."</strong></em></p>
 
 In another instance, after I discovered the garbage rollouts and asked what its one verification test had actually verified, the 4.7 model answered: **"I never called `model.generate` and decoded the output. I never looked at a single generated token of text."** Then it gave me the sentence that explains half this post: 
 
